@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { label 'static-agent-jonk' }
   stages {
     stage('hi there') {
       steps {
